@@ -1,17 +1,16 @@
-
+import "./styles/style.css"
+import ChatLists from "./components/ChatList/ChatLists";
 function App() {
     return (
         <div className="App">
-            <div>
-                Чаты
-            </div>
-            <div>
+            <ChatLists />
+            <div className="chat_info">
                 определенный чат
             </div>
-            <div>
+            <div className="chat">
                 сообщения чата
             </div>
-            
+
         </div>
     );
 }
